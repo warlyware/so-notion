@@ -5,14 +5,16 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'So Notion! - Weekly Notion Newsletter',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lora&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Niconne&display=swap' }
     ]
   },
   /*
@@ -23,6 +25,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/css/base.scss'
   ],
   /*
   ** Plugins to load before mounting the App
