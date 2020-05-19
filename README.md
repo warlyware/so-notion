@@ -1,6 +1,6 @@
-# notion-newsletter
+# So Notion!
 
-> My superb Nuxt.js project
+![test image size](https://raw.githubusercontent.com/warlyware/so-notion/master/static/so-notion-logo.png)
 
 ## Build Setup
 
