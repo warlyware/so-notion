@@ -10,7 +10,7 @@
           Weekly Newsletter
         </h2>
         <hr class="w-2/3 self-center">
-        <p class="text-xl pb-8 max-w-md self-center text-center">
+        <p class="text-xl pb-8 max-w-md self-center text-center px-4">
           Get Notion tips, featured community workspaces, office hours summaries, and more, delivered weekly to your inbox.
         </p>
         <form
